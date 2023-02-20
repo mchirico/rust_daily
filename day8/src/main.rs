@@ -3,5 +3,5 @@ macro_rules! five_times {
 }
 
 fn main() {
-    assert_eq!(25, five_times!(2 + 3));
+    assert_eq!(55, five_times!(2 + 3*3));
 }
