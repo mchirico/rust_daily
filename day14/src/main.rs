@@ -2,6 +2,8 @@ mod my_module;
 use crate::my_module::my_module2::{add_integer, get_integer_vector};
 use my_module::{my_module2::submodule2, submodule1};
 
+include!(concat!(env!("OUT_DIR"), "/hello.rs"));
+
 #[allow(dead_code)]
 fn main() {
     let sum = submodule1::add(1, 2);
@@ -15,6 +17,8 @@ fn main() {
     println!("Sum2: {}", sum2);
     println!("Sum3: {}", sum3);
     println!("result {}", get_integer_vector().lock().unwrap()[0]);
+
+    println!("{}", message());
 }
 
 #[cfg(test)]
