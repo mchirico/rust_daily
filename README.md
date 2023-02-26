@@ -7,3 +7,11 @@ Day12 .... building submodules
 # Interesting
 Take a look at the project
 https://kube.rs/
+
+
+# Index
+
+- [Day15](https://github.com/mchirico/rust_daily/tree/main/day15)
+Simple reference passing
+
+
