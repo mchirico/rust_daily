@@ -1,0 +1,8 @@
+[book]
+authors = ["Mike Chirico (https://mchirico.github.io/)"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Day 20"
+[output.html.playground]
+editable = true
